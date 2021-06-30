@@ -1,0 +1,10 @@
+{
+  "name": "Golden rule",
+  "trash_id": "D06EA70E08E9185E00A22AC19DC4CA48",
+  "includePreferredWhenRenaming": false,
+  "mustContain": [],
+  "preferred": [],
+  "mustNotContain": [
+    "/(?=(1080|720)).*((x|h)[ ._-]?265|hevc)/i"
+  ]
+}
