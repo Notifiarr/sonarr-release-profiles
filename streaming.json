@@ -2,7 +2,7 @@
   "name": "Release Sources (Streaming Service)",
   "trash_id": "1B018E0C53EC825085DD911102E2CA36",
   "includePreferredWhenRenaming": true,
-  "mustContain": [],
+  "required": "",
   "preferred": [
     {
       "score": 100,
@@ -43,5 +43,5 @@
       ]
     }
   ],
-  "mustNotContain": []
+  "ignored": ""
 }
