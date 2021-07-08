@@ -1,6 +1,7 @@
 {
 	"ignore": [
-	  "\/\\b(dv|dovi|dolby[ .]vision)\\b.*(?=[ ._-]web[ ._-]?(dl|rip)\\b)\/i,\/(?=[ ._-]web[ ._-]?(dl|rip)\\b).*\\b(dv|dovi|dolby[ .]vision)\\b\/i"
+	  "\/\\b(dv|dovi|dolby[ .]vision)\\b.*(?=[ ._-]web[ ._-]?(dl|rip)\\b)\/i",
+	  "\/(?=[ ._-]web[ ._-]?(dl|rip)\\b).*\\b(dv|dovi|dolby[ .]vision)\\b\/i"
 	],
 	"required": [
 	],
