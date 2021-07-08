@@ -1,0 +1,29 @@
+{
+	"ignore": [
+	  "\/\\b(dv|dovi|dolby[ .]vision)\\b.*(?=[ ._-]web[ ._-]?(dl|rip)\\b)\/i,\/(?=[ ._-]web[ ._-]?(dl|rip)\\b).*\\b(dv|dovi|dolby[ .]vision)\\b\/i"
+	],
+	"required": [
+	],
+	"preferred": [{
+		"score": "15",
+		"terms": [
+		  "\/\\bS\\d+\\b(?!E\\d+\\b)\/i"
+		]
+	}, {
+		"score": "10",
+		"terms": [
+		  "\/\\bHDR(\\b|\\d)\/i"
+		]
+	}, {
+		"score": "-25",
+		"terms": [
+		  "\/(\\[rartv\\]|\\[rarbg\\]|\\[eztv\\]|\\[TGx\\])\/i", 
+		  "\/(-4P|-4Planet|-AsRequested|-BUYMORE)\\b\/i", 
+		  "\/(-Chamele0n|-GEROV|-iNC0GNiTO|-NZBGeek)\\b\/i", 
+		  "\/(-Obfuscated|-postbot|-Rakuv|-Scrambled)\\b\/i", 
+		  "\/(-WhiteRev|-xpost|-WRTEAM|-CAPTCHA)\\b\/i", 
+		  "\/\\s?\\ben\\b$\/i", 
+		  "\/(1-.+)$\/i"
+		]
+	}]
+}
