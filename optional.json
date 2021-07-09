@@ -1,9 +1,9 @@
   {
   	"ignore": [{
-  		"name": "Ignore DoVi Web 1",
+  		"name": "Ignore DoVi Web 1/2",
   		"term": "/\\b(dv|dovi|dolby[ .]vision)\\b.*(?=[ ._-]web[ ._-]?(dl|rip)\\b)/i"
   	}, {
-  		"name": "Ignore DoVi Web 2",
+  		"name": "Ignore DoVi Web 2/2",
   		"term": "/(?=[ ._-]web[ ._-]?(dl|rip)\\b).*\\b(dv|dovi|dolby[ .]vision)\\b/i"
   	}],
   	"required": [],
@@ -25,16 +25,16 @@
   			"name": "Dislike retags: rartv, rarbg, eztv, TGx",
   			"term": "/(\\[rartv\\]|\\[rarbg\\]|\\[eztv\\]|\\[TGx\\])/i"
   		}, {
-  			"name": "Dislike groups: 4Planet, AsRequested, BUYMORE",
+  			"name": "Dislike groups 1/4: 4Planet, AsRequested, BUYMORE",
   			"term": "/(-4P|-4Planet|-AsRequested|-BUYMORE)\\b/i"
   		}, {
-  			"name": "Dislike groups: Chamele0n, GEROV, iNC0GNiTO, NZBGeek",
+  			"name": "Dislike groups 2/4: Chamele0n, GEROV, iNC0GNiTO, NZBGeek",
   			"term": "/(-Chamele0n|-GEROV|-iNC0GNiTO|-NZBGeek)\\b/i"
   		}, {
-  			"name": "Dislike retags: Obfuscated, postbot, Rakuv, Scrambled",
+  			"name": "Dislike groups 3/4: Obfuscated, postbot, Rakuv, Scrambled",
   			"term": "/(-Obfuscated|-postbot|-Rakuv|-Scrambled)\\b/i"
   		}, {
-  			"name": "Dislike groups: WhiteRev, xpost, WRTEAM, CAPTCHA",
+  			"name": "Dislike groups 4/4: WhiteRev, xpost, WRTEAM, CAPTCHA",
   			"term": "/(-WhiteRev|-xpost|-WRTEAM|-CAPTCHA)\\b/i"
   		}, {
   			"name": "Dislike release ending: en",
