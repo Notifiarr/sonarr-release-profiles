@@ -1,30 +1,47 @@
-{
-	"ignore": [
-	  "/\\b(dv|dovi|dolby[ .]vision)\\b.*(?=[ ._-]web[ ._-]?(dl|rip)\\b)/i",
-	  "/(?=[ ._-]web[ ._-]?(dl|rip)\\b).*\\b(dv|dovi|dolby[ .]vision)\\b/i"
-	],
-	"required": [
-	],
-	"preferred": [{
-		"score": 15,
-		"terms": [
-		  "/\\bS\\d+\\b(?!E\\d+\\b)/i"
-		]
-	}, {
-		"score": 10,
-		"terms": [
-		  "/\\bHDR(\\b|\\d)/i"
-		]
-	}, {
-		"score": -25,
-		"terms": [
-		  "/(\\[rartv\\]|\\[rarbg\\]|\\[eztv\\]|\\[TGx\\])/i", 
-		  "/(-4P|-4Planet|-AsRequested|-BUYMORE)\\b/i", 
-		  "/(-Chamele0n|-GEROV|-iNC0GNiTO|-NZBGeek)\\b/i", 
-		  "/(-Obfuscated|-postbot|-Rakuv|-Scrambled)\\b/i", 
-		  "/(-WhiteRev|-xpost|-WRTEAM|-CAPTCHA)\\b/i", 
-		  "/\\s?\\ben\\b$/i", 
-		  "/(1-.+)$/i"
-		]
-	}]
-}
+  {
+  	"ignore": [{
+  		"name": "Ignore DoVi Web 1",
+  		"term": "/\\b(dv|dovi|dolby[ .]vision)\\b.*(?=[ ._-]web[ ._-]?(dl|rip)\\b)/i"
+  	}, {
+  		"name": "Ignore DoVi Web 2",
+  		"term": "/(?=[ ._-]web[ ._-]?(dl|rip)\\b).*\\b(dv|dovi|dolby[ .]vision)\\b/i"
+  	}],
+  	"required": [],
+  	"preferred": [{
+  		"score": 15,
+  		"terms": [{
+  			"name": "Prefer Season Packs",
+  			"term": "/\\bS\\d+\\b(?!E\\d+\\b)/i"
+  		}]
+  	}, {
+  		"score": 10,
+  		"terms": [{
+  			"name": "Prefer HDR",
+  			"term": "/\\bHDR(\\b|\\d)/i"
+  		}]
+  	}, {
+  		"score": -25,
+  		"terms": [{
+  			"name": "Dislike retags: rartv, rarbg, eztv, TGx",
+  			"term": "/(\\[rartv\\]|\\[rarbg\\]|\\[eztv\\]|\\[TGx\\])/i"
+  		}, {
+  			"name": "Dislike groups: 4Planet, AsRequested, BUYMORE",
+  			"term": "/(-4P|-4Planet|-AsRequested|-BUYMORE)\\b/i"
+  		}, {
+  			"name": "Dislike groups: Chamele0n, GEROV, iNC0GNiTO, NZBGeek",
+  			"term": "/(-Chamele0n|-GEROV|-iNC0GNiTO|-NZBGeek)\\b/i"
+  		}, {
+  			"name": "Dislike retags: Obfuscated, postbot, Rakuv, Scrambled",
+  			"term": "/(-Obfuscated|-postbot|-Rakuv|-Scrambled)\\b/i"
+  		}, {
+  			"name": "Dislike groups: WhiteRev, xpost, WRTEAM, CAPTCHA",
+  			"term": "/(-WhiteRev|-xpost|-WRTEAM|-CAPTCHA)\\b/i"
+  		}, {
+  			"name": "Dislike release ending: en",
+  			"term": "/\\s?\\ben\\b$/i"
+  		}, {
+  			"name": "Dislike release containing: 1-",
+  			"term": "/(1-.+)$/i"
+  		}]
+  	}]
+  }
