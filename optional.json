@@ -6,17 +6,17 @@
 	"required": [
 	],
 	"preferred": [{
-		"score": "15",
+		"score": 15,
 		"terms": [
 		  "/\\bS\\d+\\b(?!E\\d+\\b)/i"
 		]
 	}, {
-		"score": "10",
+		"score": 10,
 		"terms": [
 		  "/\\bHDR(\\b|\\d)/i"
 		]
 	}, {
-		"score": "-25",
+		"score": -25,
 		"terms": [
 		  "/(\\[rartv\\]|\\[rarbg\\]|\\[eztv\\]|\\[TGx\\])/i", 
 		  "/(-4P|-4Planet|-AsRequested|-BUYMORE)\\b/i", 
