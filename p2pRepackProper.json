@@ -1,7 +1,7 @@
 {
   "name": "P2P Groups + Repack/Proper",
   "trash_id": "71899E6C303A07AF0E4746EFF9873532",
-  "includePreferredWhenRenaming": true,
+  "includePreferredWhenRenaming": false,
   "required": "",
   "preferred": [
     {

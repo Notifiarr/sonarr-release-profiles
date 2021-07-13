@@ -1,7 +1,7 @@
 {
   "name": "Low Quality Groups",
   "trash_id": "EBC725268D687D588A20CBC5F97E538B",
-  "includePreferredWhenRenaming": true,
+  "includePreferredWhenRenaming": false,
   "required": "",
   "preferred": [
     {
