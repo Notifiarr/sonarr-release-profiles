@@ -5,6 +5,9 @@
   	}, {
   		"name": "Ignore DoVi Web 2/2",
   		"term": "/(?=[ ._-]web[ ._-]?(dl|rip)\\b).*\\b(dv|dovi|dolby[ .]vision)\\b/i"
+		}, {
+  		"name": "Ignore The Group -SCENE",
+  		"term": "/\\b(-scene)\\b/i"
   	}],
   	"required": [],
   	"preferred": [{

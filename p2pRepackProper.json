@@ -26,13 +26,13 @@
         "/(-SDCC|-iKA|-iJP|-Cinefeel|-SPiRiT|-FC)\\b/i",
         "/(-JETIX|-Coo7|-WELP|-KiMCHI|-BLUTONiUM)\\b/i",
         "/(-orbitron|-ETHiCS|-RTFM|-PSiG|-MZABI)\\b/i",
-        "/(-ROCCaT)\\b/i"
+        "/(-ROCCaT|3cTWeB|playWEB|-FLUX)\\b/i"
       ]
     },
     {
       "score": 100,
       "terms": [
-        "/(-ViSiON|-FLUX)\\b/i"
+        "/(-ViSiON)\\b/i"
       ]
     },
     {
