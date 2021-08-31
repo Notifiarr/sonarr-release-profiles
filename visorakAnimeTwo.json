@@ -96,7 +96,7 @@
     {
       "score": 100,
       "terms": [
-        "/\\b(?:(BluRay|Blu-Ray|BDMux|BD(?!$))|(BDRip)|(BRRip))(?:\\b|$|[ .])/ix",
+        "/\\b(?:(Blu-?Ray|BDMux|BD(?!$))|(B[DR]Rip))(?:\\b|$|[ .])/ix",
 		"/(\\bCH\\b|\\bFFF\\b|Licca|Soldado|SNSbu)/i",
 		"/(Coalgirls|BlurayDesuYo|DameDesuYo|\\bPAS\\b)/i"
       ]
@@ -118,13 +118,13 @@
     {
       "score": 15,
       "terms": [
-        "/\\b(WEB[-_. ]DL|WEBDL|WebHD|[. ]WEB[. ](?:[xh]26[45]|DDP?5[. ]1)|[. ](?-i:WEB)$|\\d+0p(?:WEB-DLMux|\\b\\s\\/\\sWEB\\s\\/\\s\\b))/ix"
+        "/\\b(WEB[-_. ]?DL|WebHD|[. ]WEB[. ](?:[xh]26[45]|DDP?5[. ]1)|[. ](?-i:WEB)$|\\d+0p(?:WEB-DLMux|\\b\\s\\/\\sWEB\\s\\/\\s\\b))/ix"
       ]
     },
     {
       "score": 10,
       "terms": [
-        "/(WebRip|Web-Rip|WEBMux)/ix"
+        "/(Web-?Rip|WEBMux)/ix"
       ]
     },
     {
