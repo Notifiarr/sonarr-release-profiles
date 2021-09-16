@@ -3,9 +3,6 @@
   		"name": "Ignore DoVi Web",
   		"term": "\\b(?=.*(dv|dovi|dolby[ .]vision)\\b)(?=.*(WEB[-_. ]DL|WEBDL|AmazonHD|iTunesHD|MaxdomeHD|NetflixU?HD|WebHD|[. ]WEB[. ](?:[xh]26[45]|DDP?5[. ]1)|[. ](?-i:WEB)$|\\d+0p(?:[-. ]AMZN)?[-. ]WEB[-. ]|WEB-DLMux|\\b\\s\\/\\sWEB\\s\\/\\s\\b|AMZN[. ]WEB[. ]|WebRip|Web-Rip|WEBMux))"
   	}, {
-  		"name": "Ignore DoVi Web 2/2",
-  		"term": "/(?=[ ._-]web[ ._-]?(dl|rip)\\b).*\\b(dv|dovi|dolby[ .]vision)\\b/i"
-		}, {
   		"name": "Ignore The Group -SCENE",
   		"term": "/\\b(-scene)\\b/i"
   	}],
