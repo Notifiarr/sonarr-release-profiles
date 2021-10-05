@@ -2,7 +2,7 @@
   "name": "P2P Groups + Repack/Proper",
   "trash_id": "71899E6C303A07AF0E4746EFF9873532",
   "includePreferredWhenRenaming": false,
-  "required": "",
+  "required": [],
   "preferred": [
     {
       "score": 180,
@@ -54,5 +54,5 @@
       ]
     }
   ],
-  "ignored": ""
+  "ignored": []
 }
