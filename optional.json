@@ -5,6 +5,9 @@
   	}, {
   		"name": "Ignore The Group -SCENE",
   		"term": "/\\b(-scene)\\b/i"
+  	}, {
+  		"name": "Ignore so called scene releases",
+  		"term": "/\\b(\\.WEB\\.)\\b/i"
   	}],
   	"required": [],
   	"preferred": [{
