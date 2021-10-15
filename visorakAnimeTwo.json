@@ -25,7 +25,7 @@
 			"terms": [
 				"/(\\bHAiKU\\b|Exiled-Destiny|\\b(E-D)\\b|Koten[ ._-]Gars)/i",
 				"/(\\[GHOST\\]|-GHOST\\b|\\[NPC\\]|-NPC\\b|\\bCBM\\b)/i",
-				"/(\\bKH\\b|\\bCBT\\b|naiyas|ShowY|Kametsu|\\bPn8\\b|Hark0N)/i"
+				"/(\\bKH\\b|\\bCBT\\b|\\[naiyas\\]|-naiyas\\b|ShowY|Kametsu|\\bPn8\\b|Hark0N)/i"
 			]
 		},
 		{
