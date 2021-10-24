@@ -7,7 +7,7 @@
   		"term": "/\\b(-scene)\\b/i"
   	}, {
   		"name": "Ignore so called scene releases",
-  		"term": "/\\b(\\.WEB\\.)\\b/i"
+  		"term": "/\\b([ .]WEB[ .])\\b/i"
   	}],
   	"required": [],
   	"preferred": [{
