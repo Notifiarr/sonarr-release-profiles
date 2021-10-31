@@ -163,7 +163,7 @@
 			"terms": [
 				"/(\\[Pixel\\]|-Pixel\\b\\[EDGE\\]|-EDGE\\b|\\[Ranger\\]|-Ranger\\b)/i",
 				"/(SpaceFish|DeadFish|\\bDB\\b|Man\\.K|\\bHR\\b)/i",
-				"/(BakedFish|N[eo][wo]b[ ._-]?Subs|\\bAnime Time\\b)/i",
+				"/(BakedFish|N[eo][wo]b[ ._-]?Subs|\\bAnime[. ]Time\\b)/i",
 				"/(AnimeKaizoku|Kaizoku|\\bCBB\\b|phazer11)/i",
 				"/(iPUNISHER|MiniTheatre|MiniFreeza|Mr\\.Deadpool)/i",
 				"/(NemDiggers|Project-gxs|youshikibi)/i",
