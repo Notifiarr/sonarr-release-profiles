@@ -27,7 +27,7 @@
         "/(-JETIX|-Coo7|-WELP|-KiMCHI|-BLUTONiUM)\\b/i",
         "/(-orbitron|-ETHiCS|-RTFM|-PSiG|-MZABI)\\b/i",
         "/(-ROCCaT|3cTWeB|playWEB|-FLUX|NOSiViD)\\b/i",
-        "/(-KHN|NPMS|SDCC|-END)\\b/i"
+        "/(-KHN|NPMS|-END)\\b/i"
       ]
     },
     {
