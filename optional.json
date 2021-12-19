@@ -1,13 +1,13 @@
   {
   	"ignore": [{
   		"name": "Ignore DoVi Web",
-  		"term": "/\\b(?=.*(dv|dovi|dolby[ .]vision)\\b)(?=.*(WEB[-_. ]DL|WEBDL|AmazonHD|iTunesHD|MaxdomeHD|NetflixU?HD|WebHD|[. ]WEB[. ](?:[xh]26[45]|DDP?5[. ]1)|[. ](?-i:WEB)$|\\d+0p(?:[-. ]AMZN)?[-. ]WEB[-. ]|WEB-DLMux|\\b\\s\\/\\sWEB\\s\\/\\s\\b|AMZN[. ]WEB[. ]|WebRip|Web-Rip|WEBMux))/i"
+  		"term": "/(?=.*\\b(dv|dovi|dolby[ .]vision)\\b)(?=.*(WEB[-_. ]?(DL|RIP)|\\bWEB\\b))/i"
   	}, {
   		"name": "Ignore The Group -SCENE",
   		"term": "/\\b(-scene)\\b/i"
   	}, {
   		"name": "Ignore so called scene releases",
-  		"term": "/\\b([ .]WEB[ .])\\b/i"
+  		"term": "/([_. ]WEB[_. ]|\\bCAKES\\b|GGEZ|GGWP|GLHF)/i"
   	}],
   	"required": [],
   	"preferred": [{
