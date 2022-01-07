@@ -1,7 +1,7 @@
   {
   	"ignore": [{
-  		"name": "Ignore DoVi Web",
-  		"term": "/(?=.*\\b(dv|dovi|dolby[ .]vision)\\b)(?=.*(WEB[-_. ]?(DL|RIP)|\\bWEB\\b))/i"
+  		"name": "Ignore Dolby Vision without HDR10 fallback.",
+  		"term": "/^(?!.*(HDR|HULU))(?=.*\\b(DV|Dovi|Dolby[- .]Vision)\\b).*/i"
   	}, {
   		"name": "Ignore The Group -SCENE",
   		"term": "/\\b(-scene)\\b/i"
