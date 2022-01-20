@@ -1,7 +1,7 @@
   {
   	"ignore": [{
   		"name": "Ignore Dolby Vision without HDR10 fallback.",
-  		"term": "/^(?!.*(HDR|HULU))(?=.*\\b(DV|Dovi|Dolby[- .]Vision)\\b).*/i"
+  		"term": "/^(?!.*(HDR|HULU|REMUX))(?=.*\\b(DV|Dovi|Dolby[- .]Vision)\\b).*/i"
   	}, {
   		"name": "Ignore The Group -SCENE",
   		"term": "/\\b(-scene)\\b/i"
@@ -21,6 +21,12 @@
   		"terms": [{
   			"name": "Prefer HDR",
   			"term": "/\\bHDR(\\b|\\d)/i"
+  		}]
+   	}, {
+  		"score": 100,
+  		"terms": [{
+  			"name": "Prefer Dolby Vision",
+  			"term": "/\\b(dv|dovi|dolby[ .]vision)\\b/i"
   		}]
   	}, {
   		"score": -25,
