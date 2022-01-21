@@ -8,8 +8,7 @@
       "score": 100,
       "terms": [
         "/\\b(amzn|amazon)\\b(?=[ ._-]web[ ._-]?(dl|rip)\\b)/i",
-        "/\\b(atvp|aptv)\\b(?=[ ._-]web[ ._-]?(dl|rip)\\b)/i",
-        "/\\b(hmax|hbmo)\\b(?=[ ._-]web[ ._-]?(dl|rip)\\b)/i"
+        "/\\b(atvp|aptv)\\b(?=[ ._-]web[ ._-]?(dl|rip)\\b)/i"
       ]
     },
     {
@@ -23,7 +22,8 @@
       "terms": [
         "/\\b(dsnp|dsny|disney)\\b(?=[ ._-]web[ ._-]?(dl|rip)\\b)/i",
         "/\\b(nf|netflix)\\b(?=[ ._-]web[ ._-]?(dl|rip)\\b)/i",
-        "/\\b(qibi)\\b(?=[ ._-]web[ ._-]?(dl|rip)\\b)/i"
+        "/\\b(qibi)\\b(?=[ ._-]web[ ._-]?(dl|rip)\\b)/i",
+        "/\\b(hmax|hbmo)\\b(?=[ ._-]web[ ._-]?(dl|rip)\\b)/i"
       ]
     },
     {
